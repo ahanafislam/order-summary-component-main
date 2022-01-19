@@ -38,11 +38,11 @@ body {
 
 
 .container {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
@@ -52,8 +52,17 @@ h2,h4 {
 }
 
 button {
-    border: 0;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    font-size: inherit;
     font-weight: var(--fw-bold);
+    color: var(--desaturated-blue);
+}
+
+a{
+    color: var(--bright-blue);
 }
 
 /* Style Card */
@@ -78,6 +87,52 @@ button {
     margin: 30px 0;
 }
 
+.price-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--very-pale-blue);
+    padding: 17px;
+    border-radius: 10px;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+}
+
+.price img {
+    margin-right: 20px;
+}
+
+.order-btns {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-primary {
+    padding: 20px 0;
+    background-color: var(--bright-blue);
+    color: #fff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 12px var(--desaturated-blue);
+}
+
+.btn-primary, .card-link, .btn {
+    transition: all 0.5s linear;
+}
+
+
+.btn-primary:hover, .card-link:hover{
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: var(--dark-blue);
+}
+
 @media only screen and (min-width: 400px) {
     /* General*/
     body {
@@ -90,6 +145,10 @@ button {
     }
 
     .card-body {
-        padding: 3.19rem;
+        padding: 2.8rem;
+    }
+
+    .price-area {
+        margin-bottom: 32px;
     }
 }

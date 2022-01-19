@@ -37,8 +37,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/ahanafislam/order-summary-component-main)
-- Live Site URL: [Add live site URL here](https://ahanafislam.github.io/order-summary-component-main/)
+- [Solution Code Link](https://github.com/ahanafislam/order-summary-component-main)
+- [Live Site Link](https://ahanafislam.github.io/order-summary-component-main/)
 
 ## My process
 
